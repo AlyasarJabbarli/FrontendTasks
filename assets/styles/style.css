@@ -1,0 +1,12 @@
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+   
+    
+}
+.table_font td{
+    font-weight: bold;
+    text-align: center;
+}
