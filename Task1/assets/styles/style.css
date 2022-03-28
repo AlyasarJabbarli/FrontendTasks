@@ -1,0 +1,163 @@
+/* 
+.border{
+    background-color: grey;
+}
+.header{
+    height: 10%;
+    background-color: black;
+}
+.col2{
+    width: 16.66%;
+}
+.col12{
+    width: 100%;
+}
+.col8{
+    width: 66.8%;
+}
+.top{
+    height: 90%;
+    background-color: gainsboro;
+}
+.bottom{
+    height: 10%;
+    background-color: black;
+}
+.container{
+    height: 900px;
+}
+.bottom_container{
+    height: 90%;
+    display: flex;
+} */
+
+
+
+
+
+/* Task2 */
+
+
+/* .container{
+    height: 900px;
+}
+.col12{
+    width: 100%;
+}
+.header{
+    background-color: grey;
+    padding: 10px;
+    height: 10%;
+}
+.text{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+.color1{
+    width: 100%;
+    height: 15%;
+    background-color: blue;
+}
+.color2{
+    width: 100%;
+    height: 15%;
+    background-color: aquamarine;
+}
+.color3{
+    width: 100%;
+    height: 15%;
+    background-color: greenyellow;
+}
+.color4{
+    width: 100%;
+    height: 15%;
+    background-color: yellow;
+}
+.square{
+    background-color: blue;
+    height: 80%;
+    margin: 10px;
+    width: 10%;
+} */
+
+
+/* Task3 */
+
+/* .col4 {
+    width: 33.33%;
+}
+
+.container{
+    display: flex;
+    height: 900px;
+    width: 800px;
+}
+.section1{
+    background-color: blue;
+    height: 100%;
+}
+
+.section2{
+    background-color: aquamarine;
+    height: 100%;
+}
+.section3{
+    height: 100%;
+}
+.top{
+    background-color: greenyellow;
+    height: 80%;
+}
+.bottom{
+    background-color: red;
+    height: 20%;
+} */
+
+
+
+/* Task4 */
+
+.col12 {
+    width: 100%;
+}
+.col6 {
+    width: 50%;
+}
+.text{
+    color: aliceblue;
+    margin-left:50px;
+    padding: 10px;
+}
+
+.container{
+    height: 700px;
+    width: 100%;
+}
+.bottom_container{
+    display: flex;
+}
+.header{
+    background-color: black;
+    height: 10%;
+    display: flex;
+}
+.section1{
+    height: 80%;
+    margin: 20px;
+}
+.section2{
+    height: 80%;
+    margin: 20px;
+}
+.top{
+    background-color: grey;
+    height: 20%;
+}
+.bottom{
+    height: 60%;
+}
+.footer{
+    background-color: black;
+    height: 10%;
+}
