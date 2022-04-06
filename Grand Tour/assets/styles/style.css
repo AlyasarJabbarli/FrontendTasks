@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+}
+
+header{
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 35px;
+    font-weight:bold;
+    display: flex;
+    align-items: center  ;
+}
+
+.navbar a i{
+    margin-left: 4px;
+}
+
+.right-icon{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.right-icon2{
+    position: relative;
+}
+
+.right-icon2 span{
+    position: absolute;
+    top: -18px;
+    right: -12px;
+    border-radius: 100%;
+    background-color: #FF4A52;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 6px;
+}
+
+
+#First{
+    background-image: url(https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-225630.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 11rem;
+    background-attachment: fixed;
+}
+
+.first-text{
+    text-align: center;
+    margin-top: 125px;
+}
+
+.first-text h1{
+    font-size: 50px;
+    color: #fff;
+}
+.first-text p{
+    font-size: 16px;
+    color: #fff;
+}
+
+#First form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#First form .f-box{
+    width: 23%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+    border-radius: 5px;
+}
+
+.f-box i{
+    color: #808080ca;
+    font-size: 13px;
+}
+
+#First .f-box input{
+    width: 80%;
+    border: none;
+    padding: 10px 5px;
+}
+
+.f-box-btn button{
+    background-color: #ff4A52;
+    color: #fff;
+    border: 1px solid #FF4A52;
+    width: 100%;
+    border-radius: 5px;
+
+    height: 100%;
+}
+
+
+#Tours{
+    padding: 5rem 0;
+}
+
+.tour-all,.trips-all {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.tour-all .box{
+    width: 23%;
+    height: 280px;
+    border-radius: 5px;
+    transition: .5s;
+    position: relative;
+}
+
+.tour-all .box:hover{
+    filter: drop-shadow(2px 6px 7px black);
+}
+
+.tour-text{
+    text-align: center;
+}
+
+.tour-text h1{
+    font-size: 40px;
+    color: rgb(26, 25, 25);
+}
+
+.tour-all .box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+    border-radius: 5px;
+}
+
+.tour-all .box-text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.tour-all .box-text h4{
+    color: #fff;
+    font-size: 22px;
+}
+
+
+.trip-box{
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.tb-top img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    vertical-align: bottom;
+}
+
+.tb-top {
+    position: relative;
+}
+
+.tb-top .sp1{
+    position: absolute;
+    background-color: #FF4A52;
+    color: #fff;
+    font-weight: bold;
+    left: 0;
+    bottom: 10px;
+    padding: 5px 11px;
+}
+
+.tb-top .sp2{
+    position: absolute;
+    background-color: #1EC6B6;
+    color: #fff;
+    font-weight: bold;
+    right: -20px;
+    top: -20px;
+    padding: 10px 5px;
+    border-radius: 100%;
+}
+
+.tbb-bottom{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tb-bottom{
+    padding: 15px;
+}
+
+footer{
+    padding: 25px;
+    width: 100%;
+    background-color: black;
+}
+.ft-box{
+    width: 30%;
+}
+.ft-box-top h4{
+    font-size: 25px;
+    color: white;
+} 
+.ft-box-top p{
+    font-size: 30pxpx;
+    font-weight: lighter;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+.ft-box-top i{
+    color: #cccccc;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.ft-box-bottom img{
+    margin-top: 30px;
+    width: 60%;
+}
+.ft-top{
+    display: flex;
+    justify-content: space-between;
+}
+.ft-bottom{
+    border-top:1px solid #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.ft-bottom p,a{
+    color: #cccccc;
+    padding: 10px;
+}
+.Adv-all{
+    display: flex;
+    justify-content: space-between;
+}
+.Adv-all .box{
+    width: 30%;
+    text-align: center;
+}
+.Adv-all .box img{
+    width: 30%;
+    margin: auto;
+}
+.Adv-all .box p{
+    width: 65%;
+    margin: auto;
+    letter-spacing: 0.5px;
+    color: #222222;
+}
+.Adv-all .box h5{
+    font-size: 20px;
+}
+#Advantages .text{
+    text-align: center;
+}
+#Advantages .text h1{ 
+    font-size: 40px;
+    color: rgb(26, 25, 25);
+}
+#Advantages .text p{ 
+    color: #8D9199;
+    font-size: 15px;
+}
+#Img{
+    margin: 70px 0px;
+    background-attachment: fixed;
+    background-image: url(https://www.wainnsiders.com/wp-content/uploads/2020/03/jacob-jones-vQRPNr1K-q0-unsplash.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+}
+#Tips .top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#Tips .top h1{ 
+    font-size: 40px;
+    color: rgb(26, 25, 25);
+}
+#Tips .top p{ 
+    color: #8D9199;
+    font-size: 15px;
+}
+#Tips .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#Tips .bottom .box{
+    width: 30%;
+    border: 1px solid #dce0e0;
+}
+#Tips .bottom .box img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+#Tips .bottom .box .bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+#Tips .bottom .box .bottom p{
+    margin: 25px 0px;
+}
+#Tips .bottom .box .bottom h6{
+    margin-bottom: 15px;
+}
+
+#Tips{
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
