@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body ,html{
+    scroll-behavior: smooth;
+}
+#scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(231, 231, 231, 0.719);
+    padding: 13px;
+    border-radius: 100%;
+}
+.container{
+    padding: 0 24rem;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(231,231,231,.25);
+}
+.top .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.top .left p{
+    margin-right: 18px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.bottom span{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+.h-all i,a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 19px;
+    font-size: 13px;
+}
+#globe{
+    position: relative;
+}
+#globe span{
+    position: absolute;
+    top: -10px;
+    right: -13px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 7px;
+    padding: 4px 6px;
+}
+.s-all{
+    height: 100vh;
+    background-image:url("https://media.tophotel.de/uploads/2020/09/hotel-sacher-salzburg-pixabay-werdepate.jpg");
+}
+.s-all .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-all .rigth{
+    position: relative;
+    width: 38%;
+    height: 36vh;
+    margin-top: 24rem;
+    border: 10px solid rgba(255,255,255,.2);
+    background-color: rgba(0,0,0,.4);
+    border-radius: 4px;
+    padding: 20px;
+}
+.s-all .left{
+    width: 40%;
+    margin-top: 24rem;
+}
+.s-all .left h1{
+    color:aliceblue;
+    font-size: 110px;
+}
+.s-all .left h2{
+    color:aliceblue;
+    font-size: 70px;
+}
+.s-all .rigth .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.s-all .rigth label{
+    color:  rgba(255,255,255,.2);
+}
+#check{
+    width: 70%;
+    margin-bottom: 25px;
+    padding: 4px;
+}
+#num{
+    width: 40%;
+    padding: 6px;
+}
+.s-all button{
+    position: absolute;
+    bottom: 50px;
+    right: 18px;
+    background-color: #2250fc;
+    border-color: #2250fc;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #fff;
+    width: 40%;
+    padding: 9px;
+}
+
+.s-all select{
+    width: 100%;
+    padding:6px;
+}
+.s1-all{
+    padding: 100px 0px;
+}
+
+.s1-all .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.s1-all .top h1{
+    color: #1f1f1f;
+    letter-spacing: .5px;
+    font-size: 55px;
+}
+
+.s1-all .center p{
+    color: #777;
+    font-size: 21px;
+}
+.s1-all .center{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding:  30px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.s1-all .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.s1-all .bottom .box{
+    width: 23%;
+}
+.s1-all .bottom .box p{
+    margin-top: 17px;
+    color: #777;
+    font-size:medium;
+    letter-spacing: 1px;
+
+} 
+.s1-all .bottom .box h4{
+    margin-top: 10px;
+    font-size:24px;
+}
+.s2-all .bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.s2-all .bottom .box{
+    width: 23%;
+    border-radius: 5px;
+}
+.s2-all .bottom .box img{
+    width: 100%;
+    border-radius: 5px 
+}
+.s2-all .bottom .b-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    margin: 20px 0px;
+    padding-top: 10px;
+}
+.s2-all .bottom .b-bottom p{
+    font-size: 23px;
+}
+.s2-all .bottom .b-bottom button{
+    background-color: #2250fc;
+    color: #fff;
+    border-radius: 5px;
+    border: #2250fc;
+    padding: 12px 18px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.s2-all .bottom .b-top{
+position: relative;
+}
+.s2-all .bottom .b-top p{
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 19px;
+}
+.s2-all .bottom .b-top .save{
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.s2-all .bottom .b-top span{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #e01a33;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: x-small;
+}
+.s2-all .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s2-all .top h1{
+    color: #1f1f1f;
+    letter-spacing: .5px;
+    font-size: 55px;
+}
+.s2-all .center p{
+    color: #777;
+    font-size: 21px;
+}
+.s2-all .center{
+    border-top: 1px solid #eee;
+    padding:  30px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.s2-all .bottom .b-center p{
+    color: #777;
+    font-size: 17px;
+}
+.s3-all{
+    display: flex;
+    justify-content: space-between;
+
+}
+.s3-all .left{
+    width: 55%;
+}
+.s3-all .rigth{
+    width: 40%;
+}
+
+.s3-all .rigth .top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.s3-all .rigth .top .r-top{
+    font-size: 50px!important;
+    font-weight: 800;
+}
+.s3-all .rigth .top .r-bottom{
+    color: #777;
+    font-size: 1.2rem;
+    font-weight:400;
+    margin-top: 10px;
+}
+.s3-all .rigth .bottom form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+}
+.s3-all .rigth .bottom label{
+    color: #777;
+}
+.s3-all .rigth .bottom input{
+    color: #777;
+    border-radius: 5px;
+    border: 1px solid #e6e8eb;
+    padding: 10px 16px;
+    margin: 10px 0px;
+}
+#mes{
+    padding: 16px 0px 120px 10px;
+}
+#sndmsg{
+    background-color: #2250fc;
+    color: #fff;
+    width: 30%;
+    align-self: center;
+}
+
+.s3-all .left .top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.s3-all .left .top .l-top{
+    font-size: 50px!important;
+    font-weight: 800;
+}
+.s3-all .left .top .l-center{
+    color: #777;
+    font-size: 1.2rem;
+    font-weight:400;
+    margin: 10px 0px 40px 0px;
+}
+.s3-all .left .top .l-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #e6e8eb;
+    padding-bottom: 15px;
+    color: #777;
+}
+.s3-all .left .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.s3-all .left .bottom .b1-top span{
+    color: #777;
+    font-size: small;
+    margin-left: 3px;
+}
+.s3-all .left .bottom .b1-top{
+    color: #777;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.s3-all .left .bottom .b1-bottom{
+    color: #777;
+    margin-top: 5px;
+}
+.s3-all .left .bottom .box{
+    border-bottom: 2px solid #e6e8eb;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.Maps{
+    width: 100%;
+}
+.f-all .top{
+    display: flex;
+    justify-content: space-between;
+}
+.f-all .left{
+    width: 40%;
+}
+.f-all .rigth{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.f-all .rigth .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 23%;
+}
+.f-all .rigth a{
+    color: #777;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+.f-all .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.f-all .rigth h5{
+    margin-bottom: 10px;
+}
+.f-all .left h5{
+    color: #1f1f1f;
+}
+.f-all .left p{
+    color: #777;
+    margin: 20px 0px 40px 0px;
+}
+.f-all .left a{
+    background-color: #2250fc;
+    color: #fff;
+    padding: 10px 16px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.f-all .bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #eff1f4;
+    color: #484848;
+    padding: 35px 0px;
+}
