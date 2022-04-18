@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+.form input{
+    margin: 10px 0px;
+}
+#mdt{
+    width: 74%;
+}
+.f-all{
+    display: flex;
+    align-items: center;
+}
