@@ -1,0 +1,10 @@
+.all{
+    display: flex;
+    justify-content: center;
+}
+#npt{
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-right: 6px;
+    border-radius: 3px;
+}
